@@ -1,4 +1,4 @@
-# contact-form-php, NEED HELP!!
+# contact form with dropdown menu, NEED HELP!!
 This contact form comes with the bootstrap template I downloaded a while ago. 
 
 The original contact form came with text input such as name, telephone, email and messages. I need to add a couple of drop down menus in the same form so when the customer click "submit", both the selections and the text inputs can be sent to my email. 
