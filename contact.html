@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+  <form name="sentMessage" id="contactForm" role="form" novalidate>
+
+	<div class="row">
+  <div class="col-md-6">
+    <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label for="property_type">I am looking for:</label>
+      <select class="form-control" id="property_type">
+        <option value="">Please make a choice</option>
+        <option value="property1">Property1</option>
+        <option value="property2">Property2</option>
+        <option value="property3">Property3</option>
+      </select>
+    </div>
+    </div>
+      <br>
+  <div class="control-group">
+  <div class="form-group floating-label-form-group controls">
+    <label for="period">I'm looking to move in </label>
+      <select class="form-control" id="period">
+        <option value="">Please make a choice</option>
+        <option value="period1">Period 1</option>
+        <option value="period2">Period 2</option>
+        <option value="period3">Period 3</option>
+      </select>
+    </div>
+    </div>
+ 
+  </div> <!--column-->
+
+  <div class="col-md-6">
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="form-control input-lg" id="name" required data-validation-required-message="Please enter name">
+                            <span class="help-block text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label for="email" >Your Email</label>
+                            <input type="email" class="form-control input-lg" id="email" required data-validation-required-message="Please enter email">
+                            <span class="help-block text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label for="phone">Your Phone Number</label>
+                            <input type="tel" class="form-control input-lg" id="phone" required data-validation-required-message="Please enter phone number">
+                            <span class="help-block text-danger"></span>
+                        </div>
+                    </div>
+                      <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label for="current_address">Which city/town are you living now?</label>
+                            <input type="text" class="form-control input-lg" id="current_address" required="" data-validation-required-message="Please enter the name of your city/town">
+                            <span class="help-block text-danger"></span>
+                        </div>
+                    </div>
+                       <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label for="postalcode">Postal Code</label>
+                            <input type="text" class="form-control input-lg" id="postalcode">
+                        </div>
+                    </div>                   
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label for="message">Message</label>
+                            <textarea rows="2" class="form-control input-lg" id="message" required="" data-validation-required-message="Please enter a message." aria-invalid="false"></textarea>
+                            <span class="help-block text-danger"></span>
+                        </div>
+                    </div>
+                    <div id="success"></div>
+                    <button type="submit" class="btn border-button-black">Send</button>
+</div>
+</div>
+  </form>
+</div>
+
+<script src="js/jquery.min.js">
+<script src="js/form.js"></script>
+</body>
+</html>
