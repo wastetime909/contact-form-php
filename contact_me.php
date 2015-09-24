@@ -11,8 +11,6 @@ if(empty($_POST['name'])  		||
    }
 $Property_Type= $_Post['property_type'];
 $period= $_Post['period'];
-$size= $_Post['size'];
-$location= $_Post['location'];
 $name = $_POST['name'];
 $email_address = $_POST['email'];
 $phone = $_POST['phone'];
