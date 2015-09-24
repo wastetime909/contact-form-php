@@ -11,8 +11,6 @@ $(function() {
             // get values from FORM
             var property_type= $('input[name=property_type]').val();
             var period= $('input[name=period]').val();
-            var size= $('input[name=size]').val();
-            var location= $('input[name=location]').val();
             var name = $("input#name").val();
             var email = $("input#email").val();
             var phone = $("input#phone").val();
@@ -28,8 +26,6 @@ $(function() {
                 data: {
                     property_type: property_type,
                     period: period,
-                    size: size,
-                    location: location,
                     name: name,
                     phone: phone,
                     email: email,
